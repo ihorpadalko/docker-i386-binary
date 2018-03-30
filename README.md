@@ -11,11 +11,11 @@ build: 89658be
 version: 0.2.3  
 commit: 9048e5e50717ea4497b757314bad98ea3763c145
 
-`(docker-)containerd-ctr` - A lightweight CLI to directly communicate with containerd. Think of it as how 'docker' is to 'dockerd'.  
+`(docker-)containerd-ctr` - A lightweight CLI to directly communicate with containerd.
 version: 0.2.3  
 commit: 9048e5e50717ea4497b757314bad98ea3763c145
 
-`(docker-)containerd-shim` - After runC actually runs the container, it exits (allowing us to not have any long-running processes responsible for our containers). The shim is the component which sits between containerd and runc to facilitate this.
+`(docker-)containerd-shim` - The shim is the component which sits between containerd and runc.
 
 `(docker-)runc` - A lightweight binary for actually running containers. Deals with the low-level interfacing with Linux capabilities like cgroups, namespaces, etc...  
 version:    1.0.0-rc2  
