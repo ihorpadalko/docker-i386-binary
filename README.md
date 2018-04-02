@@ -20,3 +20,5 @@ commit: 9048e5e50717ea4497b757314bad98ea3763c145
 `(docker-)runc` - A lightweight binary for actually running containers. Deals with the low-level interfacing with Linux capabilities like cgroups, namespaces, etc...  
 version:    1.0.0-rc2  
 commit: c91b5bea4830a57eac7882d7455d59518cdf70ec
+
+Tested on CentOS 7.4
